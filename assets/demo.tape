@@ -13,17 +13,17 @@ Sleep 2s
 
 Type "docker-compose up -d --build"
 Enter
-Sleep 5s
+Sleep 8s
 
 Type "docker-compose logs | grep exec"
 Enter
-Sleep 5s
+Sleep 4s
 
 Type "make build-lambda"
 Enter
-Sleep 5s
+Sleep 8s
 
 Type "docker-compose logs | grep exec"
 Enter
-Sleep 15s
+Sleep 10s
 
